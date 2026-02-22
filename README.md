@@ -1006,7 +1006,7 @@ While you can use any color of the preset `mup-colors` for any purpose, here are
 > **White background** in light mode.
 
 
-#### How to Use
+### How to Use
 
 Add the desired color to the `cssclasses` property in your note's **Properties** or directly to your note in Source mode (**YAML Frontmatter**):
 
@@ -1095,6 +1095,7 @@ Some checkbox icons were inspired by the excellent Minimal Theme by Stephan Ango
 I'm also grateful to everyone who took the time to star this repository. It really gives me extra motivation to keep improving this theme. I hope you find it useful in your daily work/study.
 
 Special congratulations to the Obsidian.md team for creating a great software application.
+
 
 
 
