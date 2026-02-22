@@ -966,6 +966,56 @@ The syntax highlighting in this theme is similar to the MagicUser themes for VS 
 - Select inline code border color.
 - Select code block border color.
 
+## MagicUser Page Backgrounds (MUP)
+
+![MagicUser theme page backgrounds](images/magicuser_mup_backgrounds.png)
+
+**MagicUser Page** (**MUP**) **Backgrounds** allow you to visually categorize your notes based on their purpose. Instead of every note looking the same, you can assign "modes" to your vault for better mental context-switching.
+
+### Works with MagicUser Preset Themes
+
+Whether you are using the **MagicUser default theme** or one of the **built-in Preset Themes**, applying a `mup-colorName` class will override the background for that specific note while maintaining the rest of your theme's styling.
+
+### Available Colors
+
+1. `mup-white` or `mup-black` (Smart Inversion: **Black** in dark mode / **White** in light mode)
+2. `mup-blue`
+3. `mup-purple`
+4. `mup-teal`
+5. `mup-green`
+6. `mup-yellow`
+7. `mup-gray` or `mup-grey`
+
+### Use Background Colors For Improved Creative Workflow
+
+Assigning background colors helps you visually categorize a **note's type** or **status** at a glance. **Color coding is entirely optional**—often, using just two or three colors for your most critical notes creates the most effective workflow.
+
+While you can use any color of the preset `mup-colors` for any purpose, here are a few **examples** to implement mixed colored background to a workflow:
+
+- **Default Theme Background** (*No cssclasses property*): Default preset theme background color for **general-purpose note-taking**.
+- **Drafting (`mup-gray`):** Gray background color for **drafts**.
+- **References (`mup-teal`):** Teal background color for **research references**.
+- **Experimental (`mup-purple`):** Purple background color for **brainstorming** or **writing down new ideas**.
+- **Media Viewer and/or Flashcards (`mup-black`):** For notes with **images** and/or embedded **videos**, as well as with **MagicUser Flashcards**. 
+
+> [!Important]
+> Smart Inversion (`mup-black` and `mup-white`):
+> 
+> **Black background** in dark mode.
+>
+> **White background** in light mode.
+
+
+#### How to Use
+
+Add the desired color to the `cssclasses` property in your note's **Properties** or directly to your note in Source mode (**YAML Frontmatter**):
+
+```yaml
+---
+cssclasses:
+  - mup-purple
+---
+```
 ## Plugins Compatibility
 
 ![MagicUser Theme - Community Plugins Compatibility](images/magicuser_theme_plugins_compatibility.png)
@@ -1045,6 +1095,7 @@ Some checkbox icons were inspired by the excellent Minimal Theme by Stephan Ango
 I'm also grateful to everyone who took the time to star this repository. It really gives me extra motivation to keep improving this theme. I hope you find it useful in your daily work/study.
 
 Special congratulations to the Obsidian.md team for creating a great software application.
+
 
 
 
