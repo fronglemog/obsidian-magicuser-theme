@@ -1,5 +1,11 @@
 # Changelog
 
+## [21.20.0] 2026-02-22
+
+- _New_ **MagicUser Pages (mup) background colors** (*cssclasses*): You can select individual note background colors using `cssclasses`. These colors are theme-aware and will automatically adapt to light or dark modes. Please check the README.
+
+- Adjusted editor frontmatter properties: Removed background color when collapsed; the `Properties` title now fades out until hovered.
+
 ## [21.19.0] - 2026-02-08
 -  _New_ **Global font size** (adjust the font size of global font mode - slider).
 
