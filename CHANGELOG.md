@@ -2,7 +2,7 @@
 
 ## [21.20.0] 2026-02-22
 
-- _New_ **MagicUser Pages (mup) background colors** (*cssclasses*): You can select individual note background colors using `cssclasses`. These colors are theme-aware and will automatically adapt to light or dark modes. Please check the README.
+- _New_ **MagicUser Pages (mup) background colors** (*cssclasses*): You can select individual note background colors using `cssclasses`. These colors are theme-aware and will automatically adapt to light or dark modes. **Please check the README for more information.**
 
 - Adjusted editor frontmatter properties: Removed background color when collapsed; the `Properties` title now fades out until hovered.
 
