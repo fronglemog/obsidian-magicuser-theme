@@ -438,48 +438,12 @@ To show the left ribbon, place your cursor on the left side of the screen, it wi
 
 - Toggle total concentration mode quickly using a **shortcut** or **Command Palette**.
 
-## Dataview Tables to Cards
-
-![Dataview tables to cards](images/magicuser_theme_dataviewtables_to_cards.gif)
-
-<details>
-<summary>✨ <b>Dataview Tables to Cards</b> (Expand to see more details)</summary>
-
----
-
-- **Dataview tables can be converted to cards**. Add cssclasses property (with `cards` class) on the note you want to transform the dataview tables to cards. This cards class was inspired by @kepano excellent Minimal theme, but it is a different code and look. I hope you also find it useful.
-
-- The default `cards` class will add **3 columns** maximum. If you want just 2 columns add `cards cards2` (cssclasses property).
-
-```frontmatter
----
-# Display table to cards (2 columns)
-cssclasses:
-  - cards
-  - cards2
----
-```
-
-- You can add **5 additional classes**: `cards1`, `cards2`, `cards3`, `cards4` and `cards5` (corresponding to the number of columns - 1 to 5 columns). I think this is easy to remember and implement.
-
-```frontmatter
----
-# Display table to cards (5 columns)
-cssclasses:
-  - cards
-  - cards5
----
-```
-
----
-
-</details>
-
 ## Transparent Menus, Modals and Prompts
 
 ![MagicUser Transparency](images/magicuser_theme_transparent_menus.gif)
 
 ## Compact Prompts
+
 ![MagicUser Compact Prompts](images/magicuser_compact_prompts.png)
 
 ## Style Settings - Customize Colors for Light and Dark Modes
@@ -1121,6 +1085,43 @@ To achieve the desired table layout for specific notes, you can apply the above 
 
 </details>
 
+## Dataview Tables to Cards
+
+![Dataview tables to cards](images/magicuser_theme_dataviewtables_to_cards.gif)
+
+<details>
+<summary>✨ <b>Dataview Tables to Cards</b> (Expand to see more details)</summary>
+
+---
+
+- **Dataview tables can be converted to cards**. Add cssclasses property (with `cards` class) on the note you want to transform the dataview tables to cards. This cards class was inspired by @kepano excellent Minimal theme, but it is a different code and look. I hope you also find it useful.
+
+- The default `cards` class will add **3 columns** maximum. If you want just 2 columns add `cards cards2` (cssclasses property).
+
+```frontmatter
+---
+# Display table to cards (2 columns)
+cssclasses:
+  - cards
+  - cards2
+---
+```
+
+- You can add **5 additional classes**: `cards1`, `cards2`, `cards3`, `cards4` and `cards5` (corresponding to the number of columns - 1 to 5 columns). I think this is easy to remember and implement.
+
+```frontmatter
+---
+# Display table to cards (5 columns)
+cssclasses:
+  - cards
+  - cards5
+---
+```
+
+---
+
+</details>
+
 ## Footnotes
 
 ![MagicUser theme footnotes](images/magicuser_theme_footnotes.png)
@@ -1233,6 +1234,7 @@ Some checkbox icons were inspired by the excellent Minimal Theme by Stephan Ango
 I'm also grateful to everyone who took the time to star this repository. It really gives me extra motivation to keep improving this theme. I hope you find it useful in your daily work/study.
 
 Special congratulations to the Obsidian.md team for creating a great software application.
+
 
 
 
