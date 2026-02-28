@@ -126,6 +126,8 @@ How it Works:
 
 ![MagicUser theme page backgrounds](images/magicuser_mup_backgrounds.png)
 
+> No extra plugin required.
+
 **MagicUser Page** (**MUP**) **Backgrounds** allow you to visually categorize your notes based on their purpose. Instead of every note looking the same, you can assign "modes" to **specific notes** for better mental context-switching.
 
 <details>
@@ -1234,6 +1236,7 @@ Some checkbox icons were inspired by the excellent Minimal Theme by Stephan Ango
 I'm also grateful to everyone who took the time to star this repository. It really gives me extra motivation to keep improving this theme. I hope you find it useful in your daily work/study.
 
 Special congratulations to the Obsidian.md team for creating a great software application.
+
 
 
 
