@@ -4,11 +4,7 @@
 
 ✨ **MagicUser** is a custom theme for Obsidian.md that provides a pleasant and focused note-taking experience, with light and dark themes for day and night use. 
 
-With the **Style Settings** community plugin, customize a wide range of theme elements to suit your preferences and create a truly engaging and productive workspace.
-
-![Automatic rainbow folders](images/magicuser_theme_automatic_rainbow_folders.png)
-
-![Automatic rainbow folders](images/magicuser_theme_automatic_rainbow_folders_name_icons.png)
+In conjunction with the **Style Settings** community plugin, the **MagicUser theme** offers **200+ options for customization**, including multiple preset themes, UI modes, and many special effects. Whether you prefer a clean, minimalist look or a vibrant interface, you can adjust colors, fonts, and layouts to match your workflow and personal color palette aesthetic.
 
 ## Installation
 
@@ -28,49 +24,54 @@ With the **Style Settings** community plugin, customize a wide range of theme el
 
 > [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) community plugin required.
 
-The **MagicUser theme** offers **more than 200 options** for customization, including **multiple preset themes**, **UI modes** and many **special effects**. Whether you prefer a clean, minimalist look or a vibrant interface, you can adjust colors, fonts, and layouts to match your workflow and personal color palette aesthetic.
-
 ## Preset Themes
 
-1. **MagicUser** (Default)
+<details>
+  <summary>✨ <b>MagicUser Preset Themes</b> (Expand to see more details)</summary>
 
-2. **MagicUser Room Lamp**
+---
+
+### **MagicUser** (Default)
+
+![MagicUser Themes](images/magicuser_obsidian_themes.png)
+
+### **MagicUser Room Lamp**
 
 ![MagicUser Room Lamp](images/magicuser_preset_01.png)
 
-3. **MagicUser Purple**
+### **MagicUser Purple**
 
 ![MagicUser Purple](images/magicuser_preset_02.png)
 
-4. **MagicUser Teal**
+### **MagicUser Teal**
 
 ![MagicUser Teal](images/magicuser_preset_03.png)
 
-5. **MagicUser Gray**
+### **MagicUser Gray**
   
 ![MagicUser Gray](images/magicuser_preset_05.png)
 
-6. **MagicUser Camouflage**
+### **MagicUser Camouflage**
 
 ![MagicUser Camouflage](images/magicuser_preset_04.png)
 
-7. **MagicUser Moon**
+### **MagicUser Moon**
 
 ![MagicUser Moon](images/magicuser_preset_06.png)
 
-8. **MagicUser Teacher**
+### **MagicUser Teacher**
 
 ![MagicUser Teacher](images/magicuser_preset_teacher.png)
 
-9. **MagicUser Creativity**
+### **MagicUser Creativity**
 
 ![MagicUser Creativity](images/magicuser_preset_creativity.png)
 
-10. **MagicUser Concentration**
+### **MagicUser Concentration**
 
 ![MagicUser Concentration](images/magicuser_preset_concentration.png)
 
-11. **MagicUser Stealth**
+### **MagicUser Stealth**
 
 ![MagicUser Stealth](images/magicuser_preset_stealth.png)
 
@@ -117,16 +118,23 @@ How it Works:
 
 > The theme will adjust according to the selected accent color (headings, icons, borders, blockquote border, lists and other UI elements).
 
+---
+
+</details>
+
 ## MagicUser Page Backgrounds (MUP)
 
 ![MagicUser theme page backgrounds](images/magicuser_mup_backgrounds.png)
 
 **MagicUser Page** (**MUP**) **Backgrounds** allow you to visually categorize your notes based on their purpose. Instead of every note looking the same, you can assign "modes" to **specific notes** for better mental context-switching.
 
-### Works with MagicUser Preset Themes
+<details>
+  <summary>✨ <b>MagicUser Page Backgrounds</b> (Expand to see more details)</summary>
+
+---
 
 Whether you are using the **MagicUser default theme** or one of the **built-in Preset Themes**, applying a `mup-colorName` class will override the background for that specific note while maintaining the rest of your theme's styling.
-
+  
 ### Available Colors
 
 1. `mup-white` or `mup-black` (Smart Inversion: **Black** in dark mode / **White** in light mode)
@@ -149,13 +157,11 @@ While you can use any color of the preset `mup-colors` for any purpose, here are
 - **Experimental (`mup-purple`):** Purple background color for **brainstorming** or **writing down new ideas**.
 - **Media Viewer and/or Flashcards (`mup-black`):** For notes with **images** and/or embedded **videos**, as well as with **MagicUser Flashcards**. 
 
-> [!Important]
-> Smart Inversion (`mup-black` and `mup-white`):
+> **Smart Inversion** (`mup-black` and `mup-white`):
 > 
 > **Black background** in dark mode.
 >
 > **White background** in light mode.
-
 
 ### How to Use
 
@@ -168,15 +174,24 @@ cssclasses:
 ---
 ```
 
+---
+
+</details>
+
 ## Automatic Rainbow Folders
 
-![Automatic rainbow folders - gif](images/magicuser_automatic_rainbow_colored_folders.gif)
+![Automatic rainbow folders](images/magicuser_theme_automatic_rainbow_folders.png)
 
 - **Automatic Rainbow Colored Folders.** You can activate/deactivate this feature using the Command Palette.
 
-## Automatic Rainbow-Colored Folder Names and Icons
+<details>
+  <summary>✨ <b>Automatic Rainbow Folders</b> (Expand to see more details)</summary>
 
-![Automatic rainbow folders - gif](images/magicuser_automatic_rainbow_colored_folders_names_icons.gif)
+---
+
+### Automatic Rainbow-Colored Folder Names and Icons
+
+![Automatic rainbow folders](images/magicuser_theme_automatic_rainbow_folders_name_icons.png)
 
 - **Automatic Rainbow-Colored Folder Names and Icons.** Folder and subfolder names and icons will be colored (no background color change). You can also toggle this feature (activate/deactivate) using the Command Palette.
 
@@ -191,11 +206,13 @@ cssclasses:
 - When activated, this mode will highlight the background of folders starting with the numbers "01" and/or "001" to "08" and/or "008" (according to the order of rainbow colors plus the gray color, 8th color). It will work with folders starting with "01 Folder name" to "08 Folder name".
 - All **subfolders** will have the same color of the top folder.
 
+---
+
+</details>
+
 ## Select Folder Icons (3 Styles)
 
 ![Select folder icons 1 - gif](images/magicuser_select_folder_icons.gif)
-
-![Select folder icons 1 - gif](images/magicuser_select_folder_icons_02.gif)
 
 - **Folder Icon Styles:** You can select from 3 different folder styles for open and closed states (in Style Settings).
 
@@ -208,8 +225,6 @@ cssclasses:
 ## Cards UI
 
 ![MagicUser Cards UI](images/magicuser_theme_cards_ui_01.png)
-
-![MagicUser Cards UI](images/magicuser_theme_cards_ui.gif)
 
 ## Outline UI - Sidebars and Active Icons
 
@@ -285,10 +300,7 @@ You can customize the **indent guides colors** using the Style Settings plugin (
 
 - Style Settings: Enable dark sidebar in light mode (compatible with preset themes)
 
-
 ## Neon Mode
-
-![Neon mode - gif](images/magicuser_theme_neon_mode.gif)
 
 ![Neon mode](images/magicuser_neon_mode.png)
 
@@ -297,10 +309,6 @@ You can customize the **indent guides colors** using the Style Settings plugin (
 ![Neon mode - h1-h6 custom colors](images/neon_mode_headings_submenu_custom_colors.png)
 
 You can customize the neon mode headings colors using the **Neon Mode Headings** submenu.
-
-## Neon Mode Glow Controller
-
-![Neon mode glow controller - gif](images/magicuser_theme_neon_glow_controller.gif)
 
 ## Outline Neon Mode
 
@@ -326,6 +334,11 @@ You can toggle **underline headings** using a shortcut or the Command Palette.
 
 ![Colored tags](images/magicuser_theme_colored_tags.gif)
 
+<details>
+<summary>✨ <b>MagicUser Tags</b> (Expand to see more details)</summary>
+
+---
+  
 ### 44 preset tags layout with icons
 ```md
 - **General todo and task status**:
@@ -389,18 +402,20 @@ You can toggle **underline headings** using a shortcut or the Command Palette.
   - #gF
 ```
 
+---
+
+</details>
+
 ## Warm Screen Mode
 
 ![Warm screen mode](images/magicuser_theme_warm_screen_mode.png)
-
-![Warm screen mode - gif](images/magicuser_theme_warm_screen_mode.gif)
 
 - Instead of just dimming the screen, the **warm scren mode** adjusts the light spectrum towards warmer tones (red, orange, yellow) and reduces cooler tones (e.g. blue). 
 - Warmer tones are considered less harsh on the eyes, especially in **low-light environments** or extended use.
 - The warm screen mode can create a more relaxing and soothing atmosphere for reading, working, or viewing media.
 - If you embed PDFs, you will be able to read them with warmer screen color.
 
-![Warm screen mode](images/magicuser_theme_warm_screen_mode_01.png)
+### Adjust the Intensity
 
 - You can adjust the **warm screen mode intensity** (using the slider).
 - To turn it off, set the slider to zero (default option).
@@ -427,6 +442,11 @@ To show the left ribbon, place your cursor on the left side of the screen, it wi
 
 ![Dataview tables to cards](images/magicuser_theme_dataviewtables_to_cards.gif)
 
+<details>
+<summary>✨ <b>Dataview Tables to Cards</b> (Expand to see more details)</summary>
+
+---
+
 - **Dataview tables can be converted to cards**. Add cssclasses property (with `cards` class) on the note you want to transform the dataview tables to cards. This cards class was inspired by @kepano excellent Minimal theme, but it is a different code and look. I hope you also find it useful.
 
 - The default `cards` class will add **3 columns** maximum. If you want just 2 columns add `cards cards2` (cssclasses property).
@@ -451,6 +471,10 @@ cssclasses:
 ---
 ```
 
+---
+
+</details>
+
 ## Transparent Menus, Modals and Prompts
 
 ![MagicUser Transparency](images/magicuser_theme_transparent_menus.gif)
@@ -466,6 +490,11 @@ cssclasses:
 
 ![Custom Checkbox Icons](images/magicuser_checkboxes_icons.png)
 
+<details>
+<summary>✨ <b>MagicUser Checkboxes</b> (Expand to see more details)</summary>
+
+---
+
 ### Checkbox Icons (Extra 1)
 
 ![Custom Checkbox Icons - Extra 1](images/magicuser_checkboxes_icons_extra_1.png)
@@ -476,11 +505,13 @@ cssclasses:
 
 ![Custom Checkbox Icons - Extra 3](images/magicuser_checkboxes_icons_extra_3.png)
 
+---
+
+</details>
+
 ## Checkbox Shape
 
 ![Checkbox shape](images/magicuser_checkbox_shape.png)
-
-![Checkbox shape - theme options](images/magicuser_checkbox_shape_menu.png)
 
 - **Checkbox shape**: **default** (rounded corners), **square** and **circle**.
 
@@ -497,6 +528,11 @@ cssclasses:
 *Number of columns*: 1 - 5
 
 *Colors*: white, black, gray
+
+<details>
+<summary>✨ <b>MagicUser Gallery Callouts</b> (Expand to see more details)</summary>
+
+---
 
 ![Gallery Callouts - gif](images/magicuser_theme_gallery_callouts_01.gif)
 
@@ -526,6 +562,10 @@ cssclasses:
 
 ```
 
+---
+
+</details>
+
 ### Media Callouts
 
 `> [!m-` + `color] Callout Title`
@@ -547,6 +587,11 @@ You can add a table inside the table callout and adjust the table size/width acc
 - Values: **30%**, **40%**, **50%**, **60%**, **70%**, **80%**, **90%** and **100%**.
 - You can also **center** the table (just add `center` after the percentage).
 - Don't forget to leave an empty line before inserting the table.
+
+<details>
+ <summary>✨ <b>MagicUser Table Callouts</b> (Expand to see more details)</summary>
+
+---
 
 Check it out the examples below.
 
@@ -586,6 +631,10 @@ Check it out the examples below.
 > | Text 4    | Text 5   | Text 6    |
 > | Text 7    | Text 8   | Text 9    |
 ```
+
+---
+
+</details>
 
 ### Highlighter Callouts
 
@@ -667,6 +716,11 @@ To align right, use `|right`.
 
 ![Additional Callouts](images/magicuser_callouts_02.png)
 
+<details>
+ <summary>✨ <b>Specific Callouts</b> (Expand to see more details)</summary>
+
+---
+
 ![Additional Callouts](images/magicuser_callouts_03.png)
 
 `> [!video]`
@@ -689,12 +743,21 @@ To align right, use `|right`.
 
 `> [!magic]`
 
+---
+
+</details>
+
 ### Flashcard Callouts
 
 ![MagicUser flashcards - gif](images/magicuser_flashcards_001.gif)
 
 - Use flashcards to practice **active recall** and track your study progress. You can create **individual flashcards** or organize them into **groups** for specific subjects.
 - The theme provides **color guides** to visually distinguish **groups** and **individual** flashcard callout headers, making it easier to categorize, edit, and create flashcards accurately.
+
+<details>
+  <summary>✨ <b>MagicUser Flashcards</b> (Expand to see more details)</summary>
+
+---
 
 **Questions**: Add text or images to create visual cues.
 
@@ -770,6 +833,10 @@ Fine-tune your study experience via the *Style Settings* plugin. Settings can be
 - Colors: Customize the **front background** and **front text** colors.
 - Borders: Select the **answer border color** to match your personal theme preferences.
 
+---
+
+</details>
+
 ## Resize Callouts
 
 ![Resize Callouts](images/magicuser_theme_width_center_callouts_adjustment.gif)
@@ -780,12 +847,22 @@ Fine-tune your study experience via the *Style Settings* plugin. Settings can be
 
 `> [!callout-name|percentage center]`
 
+<details>
+  <summary>✨ <b>Resize Callouts</b> (Expand to see more details)</summary>
+
+---
+
 ``` md
 > [!question|80% center] Your callout title
 > Your callout content
 ```
+
 - Values: **30%**, **40%**, **50%**, **60%**, **70%**, **80%**, **90%** and **100%**.
 - You can also **center** the callout (just add `center` after the percentage)
+
+---
+
+</details>
 
 ## Caret Colors for Improved Visibility
 
@@ -810,14 +887,22 @@ Fine-tune your study experience via the *Style Settings* plugin. Settings can be
 
 ![Text Highlight](images/magicuser_search_highlights_improved.png)
 
+<details>
+ <summary>✨ <b>Search Highlight and Text Highlight</b> (Expand to see more details)</summary>
+
+---
+  
 - **Global search highlight**, **linked mentions** and **outline text highlight**. 
 - The search result text in **live preview**, **source** and **reading** modes will appear in black text color with highlighted background (default is **yellow**, but you can select any highlight color using the Style Settings).
 - In **live preview** and **source** modes, the text will also appear **underlined** to be easier to find. It works for all types of text (normal text, bold, italic, links, tags, code and headings).
 
-> [!NOTE]
-> The underline will be the same color of your text cursor/caret color.
+- **Note:** The underline will be the same color of your text cursor/caret color.
 
-- **Outline highlight**: When you click on the item (using the outline) it will highlight the text the same way (search). I think it will be easier to read, especially when using different colors for H1-H6 titles (normal mode and neon mode).
+- **Outline highlight:** When you click on the item (using the outline) it will highlight the text the same way (search). I think it will be easier to read, especially when using different colors for H1-H6 titles (normal mode and neon mode).
+
+---
+
+</details>
 
 ## Search Highlight in Current Note
 
@@ -840,6 +925,11 @@ Fine-tune your study experience via the *Style Settings* plugin. Settings can be
 1. Add the `<i>` tag with the class `muc` (**MagicUser Comment**)
 2. Inside `<i class="muc">` just add a `<span>` tag with your comment. There is no need to add any class to the span tag.
 
+<details>
+  <summary>✨ <b>MagicUser Comments</b> (Expand to see more details)</summary>
+
+---
+
 **Example**
 
 ```html
@@ -861,12 +951,20 @@ This is the text of your note <i class="muc"><span>This is your inline comment.<
 
 ![MagicUser Inline Comments - Tables](images/magicuser_theme_inline_comments_tables.gif)
 
+---
+
+</details>
 
 ## Underlined Text Colors
 
 ![Underlined text](images/magicuser_theme_underlined_text.gif)
 
 The **default underline color** is **red**, but you can change it using the Style Settings plugin. You can also add 7 classes to make the text **underlined**. When you hover the underlined text it will become highlighted (underlined too). Please check the syntax below.
+
+<details>
+  <summary>✨ <b>Underlined Text Colors</b> (Expand to see more details)</summary>
+
+---
 
 ```html
 Text <u>underlined text</u>.
@@ -884,12 +982,20 @@ Text <u class="purple">purple underline</u>.
 Text <u class="pink">pink underline</u>.
 
 ```
-> [!NOTE]
-> The color of the text will remain the same, to avoid confusion with links.
+> **Note:** The color of the text will remain the same, to avoid confusion with links.
+
+---
+
+</details>
 
 ## Hidden Text Underline
 
 ![Hidden text underline](images/magicuser_theme_hidden_text_underline.gif)
+
+<details>
+  <summary>✨ <b>Hidden Text Underline</b> (Expand to see more details)</summary>
+
+---
 
 A) **Show text on hover** (hide text on live preview and reading modes)
 
@@ -935,6 +1041,10 @@ E) **Hide on reading mode only - show on hover - full width**
 Question: What is the name of this theme? <u class="hide-w">MagicUser</u>
 ```
 
+---
+
+</details>
+
 ## Highlighted Text Colors
 
 ![Highlighted text](images/magicuser_highlighted_text.png)
@@ -943,6 +1053,11 @@ Question: What is the name of this theme? <u class="hide-w">MagicUser</u>
 Text <mark>highlighted text</mark>
 ```
 
+<details>
+  <summary>✨ <b>Highlighted Text Colors</b> (Expand to see more details)</summary>
+
+---
+  
 The default is **yellow**. But you can quickly change its color by adding the same 7 classes of the underlined text (just the color names). Please check it out below:
 
 ```html
@@ -957,6 +1072,10 @@ Text <mark class="pink">pink highlight</mark>.
 
 ```
 
+---
+
+</details>
+
 ## Metadata highlighting
 
 ![Metadata highlighting](images/magicuser_metadata_highlighting.png)
@@ -968,6 +1087,11 @@ Default theme table layout:
 ![Table Layout](images/magicuser_theme_tables.png)
 
 - Improved table layout (**all preset themes** - light and dark modes). The colors of the tables will adapt to the different background colors of the preset themes.
+
+<details>
+  <summary>✨ <b>MagicUser Table Presets</b> (Expand to see more details)</summary>
+
+---
 
 ![Table Layout Style Settings](images/magicuser_tables_layout_preset_themes.png)
 
@@ -993,6 +1117,10 @@ Style Settings: **Preset tables**
 To achieve the desired table layout for specific notes, you can apply the above CSS classes (`table1` to `table6`).
 > **Properties** -> **cssclasses** -> `table1` to `table6`
 
+---
+
+</details>
+
 ## Footnotes
 
 ![MagicUser theme footnotes](images/magicuser_theme_footnotes.png)
@@ -1012,10 +1140,19 @@ The syntax highlighting in this theme is similar to the MagicUser themes for VS 
 ## Outline Code
 ![MagicUser theme outline code](images/magicuser_outline_code.png)
 
+<details>
+  <summary>✨ <b>Outlilne Code</b> (Expand to see more details)</summary>
+
+---
+
 - **Outline inline code** and **outline code block**: Add inline code and code block border color (independent outline). You can select independent colors for inline and code block elements (light and dark modes).
 - You can toggle the outline inline code and outline code block using the command palette (or shortcut key).
 - Select inline code border color.
 - Select code block border color.
+
+---
+
+</details>
 
 ## Plugins Compatibility
 
@@ -1096,6 +1233,7 @@ Some checkbox icons were inspired by the excellent Minimal Theme by Stephan Ango
 I'm also grateful to everyone who took the time to star this repository. It really gives me extra motivation to keep improving this theme. I hope you find it useful in your daily work/study.
 
 Special congratulations to the Obsidian.md team for creating a great software application.
+
 
 
 
