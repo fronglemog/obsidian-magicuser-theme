@@ -1,6 +1,25 @@
-# ✨**MagicUser**✨ Theme
+# ✨**MagicUser**✨ Theme for Obsidian
 
 ![MagicUser theme for Obsidian](images/screenshot_big.png)
+
+---
+
+> [!Note]
+> **This project is officially archived**. After almost three years of development, this repository has reached its **completed state** and is now read-only.
+>
+> ### **Completed Status**
+> 
+> * **Condition:** Stable.
+> 
+> * **Open Issues:** 0.
+> 
+> * **Compatibility:** Verified for **Obsidian v1.12.x**.
+>
+> **Reflection & Recognition**
+>
+> _This suite was a **labor of love**, created and maintained with **100% goodwill for the community**. I want to thank the users who recognized the craft and the professional standards required to build and maintain this amount of features over the years, also the users who contributed with suggestions and feature requests. A special thanks and my gratitude to the user who gifted a Catalyst license; that gesture was a significant highlight of this three-year project._
+
+---
 
 ✨ **MagicUser** is a custom theme for Obsidian.md that provides a pleasant and focused note-taking experience, with light and dark themes for day and night use. 
 
@@ -1236,6 +1255,7 @@ Some checkbox icons were inspired by the excellent Minimal Theme by Stephan Ango
 I'm also grateful to everyone who took the time to star this repository. It really gives me extra motivation to keep improving this theme. I hope you find it useful in your daily work/study.
 
 Special congratulations to the Obsidian.md team for creating a great software application.
+
 
 
 
